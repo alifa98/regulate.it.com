@@ -1,0 +1,73 @@
+{
+  "regions": {
+    "European Economic Area (EEA)": {
+      "members": [
+        "Austria",
+        "Belgium",
+        "Bulgaria",
+        "Croatia",
+        "Cyprus",
+        "Czech Republic",
+        "Denmark",
+        "Estonia",
+        "Finland",
+        "France",
+        "Germany",
+        "Greece",
+        "Hungary",
+        "Ireland",
+        "Italy",
+        "Latvia",
+        "Lithuania",
+        "Luxembourg",
+        "Malta",
+        "Netherlands",
+        "Poland",
+        "Portugal",
+        "Romania",
+        "Slovakia",
+        "Slovenia",
+        "Spain",
+        "Sweden",
+        "Iceland",
+        "Liechtenstein",
+        "Norway"
+      ],
+      "items": [
+        {
+          "title": "EU Data Act",
+          "link": "http://data.europa.eu/eli/reg/2023/2854/oj",
+          "description": "The Data Act is a comprehensive initiative to address the challenges and unleash the opportunities presented by data in the European Union, emphasising fair access and user rights, while ensuring the protection of personal data."
+        },
+        {
+          "title": "GDPR",
+          "link": "https://gdpr-info.eu/",
+          "description": "The European Data Protection Regulation is applicable as of May 25th, 2018 in all member states to harmonize data privacy laws across Europe."
+        }
+      ]
+    }
+  },
+
+  "US": {
+    "shared": [],
+    "states": {
+      "California": [
+        {
+          "title": "The California Consumer Privacy Act (CCPA)",
+          "link": "https://oag.ca.gov/privacy/ccpa",
+          "description": "The California Consumer Privacy Act (CCPA) grants California residents enhanced data privacy rights, including the right to know about collected data, request its deletion, opt-out of sales, and avoid discrimination for exercising these rights."
+        }
+      ]
+    }
+  },
+
+  "countries": {
+    "Canada": [
+      {
+        "title": "Personal Information Protection and Electronic Documents Act (PIPEDA)",
+        "link": "https://laws-lois.justice.gc.ca/eng/acts/p-8.6/index.html",
+        "description": "Canadian federal law that governs how private-sector organizations collect, use, and disclose personal information in the course of commercial activities"
+      }
+    ]
+  }
+}
