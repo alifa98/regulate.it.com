@@ -351,6 +351,18 @@ function handleClick(e) {
     .bindPopup(popupContent, { closeOnClick: false, autoClose: false }) // Prevent closing on map click
     .openPopup();
 
+  layer.getPopup().on('remove', () => {
+    if (clickedLayer === layer) {
+      if (countriesLayer && countriesLayer.hasLayer(clickedLayer)) {
+        countriesLayer.resetStyle(clickedLayer);
+      } else if (statesLayer && statesLayer.hasLayer(clickedLayer)) {
+        statesLayer.resetStyle(clickedLayer);
+      }
+      clickedLayer = null;
+      originalStyle = null;
+    }
+  });
+
   // Stop propagation to prevent map click handler from firing immediately
   L.DomEvent.stopPropagation(e);
 }
